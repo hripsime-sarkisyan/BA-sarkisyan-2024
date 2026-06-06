@@ -1,0 +1,14 @@
+{
+    "memgraph-host": "memgraph",
+    "memgraph-port": 7687,
+    "maxDistanceMeters": 1000.0,
+    "maxNeighbours": 10,
+    "neighbouring-predicates": [],
+    "contraction-predicates": [
+        {
+            "distance": 500.0,
+            "name": "DistanceBiPredicate"
+        }
+    ],
+    "merge-workers": 1
+}

@@ -1,0 +1,27 @@
+Computation time: 313360us
+Corvara, IT, maxDist=1k, maxN=10 minP=1, eps=90 percentile 
+
+Corvara, IT, maxDist=1k, maxN=10, 16.038 edges and 832 nodes. DBSC beta=2 
+Computation time:36147617092us
+
+Corvara, IT, maxDist=1k, maxN=10, 16.038 edges and 832 nodes. DBSC beta=2 
+Computation time:1207147211us, in seconds: 1207.15s
+
+Würzburg construction duration maxDist=1k, 91.135 edges  maxN=10 =  142.07580369 , 130.351055912
+
+Würzburg, DE, maxDist=1k, maxN=10, DBSCAN minP1, per=90 
+Computation time:55601980us, in seconds: 55.602s
+
+Würzburg, DE, maxDist=1k, maxN=10, DBSCAN minP1, per=90 
+Computation time:49907267us, in seconds: 49.9073s
+
+Corvara construction duration maxDist=1k, 16.038 edges  maxN=10  2.648991738
+Corvara, IT, maxDist=1k, maxN=10, DBSCAN minPts = 1, per = 50
+Computation time:1043488us, in seconds: 1.04349s
+
+Corvara construction duration maxDist=1k, 16.038 edges  maxN=10  Tokio 34.112858533
+Tokio, JP, maxDist=1k, maxN=10, DBSCAN minPts = 1, per = 50
+Computation time:18555193us, in seconds: 18.5552s
+
+Tokio, JP, maxDist=1k, maxN=10, FISHNET contr.distance = 500 
+Computation time:418524us, in seconds: 0.418524s

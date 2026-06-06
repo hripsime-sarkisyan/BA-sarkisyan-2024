@@ -1,0 +1,8 @@
+Compactness values: 
+Cluster 3 : compactness = 0.288047
+Cluster 1 : compactness = 0.274412
+Cluster 4 : compactness = 0.288518
+Cluster 2 : compactness = 0.284003
+Cluster -1 : compactness = 0.288381
+Compactness Index (CI): 0.284672
+Normalized Compactness Index (CI): 0.0569345

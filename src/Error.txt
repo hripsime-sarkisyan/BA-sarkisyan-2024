@@ -1,0 +1,69 @@
+[main] Building folder: /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/build all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/build --config Debug --target all -j 16 --
+[build] [ 29%] Built target util_console
+[build] [ 29%] Built target util_filesystem
+[build] [ 33%] Built target math
+[build] [ 48%] Built target io_gis
+[build] [ 62%] Built target Example1
+[build] [ 62%] Built target Example2
+[build] [ 74%] Building CXX object src/examples/CMakeFiles/Example5.dir/example5.cpp.o
+[build] [ 74%] Building CXX object src/examples/CMakeFiles/Example3.dir/example3.cpp.o
+[build] [ 74%] Building CXX object src/examples/CMakeFiles/Example6.dir/example6.cpp.o
+[build] [ 77%] Building CXX object src/examples/CMakeFiles/Example4.dir/example4.cpp.o
+[build] gmake[2]: Warning: File '/mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/Settlement.hpp' has modification time 2.7 s in the future
+[build] [ 81%] Building CXX object src/examples/CMakeFiles/Example7.dir/example7.cpp.o
+[build] In file included from /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/../ConvertShapeFile.hpp:4,
+[build]                  from /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/example5.cpp:10:
+[build] /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/../Settlement.hpp:5:10: fatal error: fishnet/MemgraphClient.hpp: No such file or directory
+[build]     5 | #include <fishnet/MemgraphClient.hpp>
+[build]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[build] compilation terminated.
+[build] gmake[2]: *** [src/examples/CMakeFiles/Example5.dir/build.make:76: src/examples/CMakeFiles/Example5.dir/example5.cpp.o] Error 1
+[build] gmake[1]: *** [CMakeFiles/Makefile2:892: src/examples/CMakeFiles/Example5.dir/all] Error 2
+[build] gmake[1]: *** Waiting for unfinished jobs....
+[build] In file included from /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/../ConvertShapeFile.hpp:4,
+[build]                  from /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/example6.cpp:10:
+[build] /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/../Settlement.hpp:5:10: fatal error: fishnet/MemgraphClient.hpp: No such file or directory
+[build]     5 | #include <fishnet/MemgraphClient.hpp>
+[build]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[build] compilation terminated.
+[build] gmake[2]: *** [src/examples/CMakeFiles/Example6.dir/build.make:76: src/examples/CMakeFiles/Example6.dir/example6.cpp.o] Error 1
+[build] gmake[1]: *** [CMakeFiles/Makefile2:921: src/examples/CMakeFiles/Example6.dir/all] Error 2
+[build] In file included from /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/../ConvertShapeFile.hpp:4,
+[build]                  from /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/example3.cpp:16:
+[build] /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/../Settlement.hpp:5:10: fatal error: fishnet/MemgraphClient.hpp: No such file or directory
+[build]     5 | #include <fishnet/MemgraphClient.hpp>
+[build]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[build] compilation terminated.
+[build] gmake[2]: *** [src/examples/CMakeFiles/Example3.dir/build.make:76: src/examples/CMakeFiles/Example3.dir/example3.cpp.o] Error 1
+[build] gmake[1]: *** [CMakeFiles/Makefile2:834: src/examples/CMakeFiles/Example3.dir/all] Error 2
+[build] In file included from /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/../ConvertShapeFile.hpp:4,
+[build]                  from /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/example4.cpp:17:
+[build] /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/../Settlement.hpp:5:10: fatal error: fishnet/MemgraphClient.hpp: No such file or directory
+[build]     5 | #include <fishnet/MemgraphClient.hpp>
+[build]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[build] compilation terminated.
+[build] gmake[2]: *** [src/examples/CMakeFiles/Example4.dir/build.make:76: src/examples/CMakeFiles/Example4.dir/example4.cpp.o] Error 1
+[build] gmake[1]: *** [CMakeFiles/Makefile2:863: src/examples/CMakeFiles/Example4.dir/all] Error 2
+[build] In file included from /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/../ConvertShapeFile.hpp:4,
+[build]                  from /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/example7.cpp:10:
+[build] /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/../Settlement.hpp:12:7: error: redefinition of ‘class Settlement<PolygonT>’
+[build]    12 | class Settlement{
+[build]       |       ^~~~~~~~~~
+[build] In file included from /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/example7.cpp:5:
+[build] /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/../Settlement.hpp:12:7: note: previous definition of ‘class Settlement<PolygonT>’
+[build]    12 | class Settlement{
+[build]       |       ^~~~~~~~~~
+[build] /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/../Settlement.hpp:67:12: error: redefinition of ‘struct std::hash<Settlement<PolygonT> >’
+[build]    67 |     struct hash<Settlement<PolygonT>> {
+[build]       |            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+[build] /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/src/examples/../Settlement.hpp:67:12: note: previous definition of ‘struct std::hash<Settlement<PolygonT> >’
+[build]    67 |     struct hash<Settlement<PolygonT>> {
+[build]       |            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+[build] gmake[2]: *** [src/examples/CMakeFiles/Example7.dir/build.make:76: src/examples/CMakeFiles/Example7.dir/example7.cpp.o] Error 1
+[build] gmake[1]: *** [CMakeFiles/Makefile2:950: src/examples/CMakeFiles/Example7.dir/all] Error 2
+[build] gmake: *** [Makefile:91: all] Error 2
+[proc] The command: /usr/bin/cmake --build /mnt/c/Users/sarkisyan/Desktop/fishnet/2024-ba-hripsime-sarkisyan/build --config Debug --target all -j 16 -- exited with code: 2
+[driver] Build completed: 00:00:39.670
+[build] Build finished with exit code 2

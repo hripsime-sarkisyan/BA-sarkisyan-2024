@@ -1,0 +1,6 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='600'>
+<polygon points='10,589 789,589 399,10 ' fill='none' stroke='black' stroke-width='2'/>
+<circle cx='10' cy='589' r='3' fill='red'/>
+<circle cx='789' cy='589' r='3' fill='red'/>
+<circle cx='399' cy='10' r='3' fill='red'/>
+</svg>

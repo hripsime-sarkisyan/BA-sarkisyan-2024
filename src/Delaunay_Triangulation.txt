@@ -1,0 +1,36 @@
+    const vector<vector<SimplePolygon<double>>> compute_delaunay_triangulation(UndirectedGraph<PointType> & graph) {
+        vector<SimplePolygon<double>> polygons(graph.getNodes().begin(), graph.getNodes().end());
+        vector<Point> centroids;
+        std::<Point, G> pointToPolygon;
+
+        // map the polygons with their centroids
+        for (const auto & poly : polygons) {
+            
+            auto points = poly.getBoundary().getPoints();
+            auto pointsVec = to_vector(points);
+            std::cout << "points" << std::endl;
+            for (auto point : pointsVec) {
+                std::cout << point << " ";
+            }
+             std::cout << std::endl;
+            auto centroid = compute_polygon_centroid(pointsVec);
+            Point pt(centroid.x, centroid.y);
+            centroids.push_back(pt);
+            pointToPolygon[pt] = poly;
+        }
+        
+        DelaunayTriangulation dt;
+        dt.insert(centroids.begin(), centroids.end());
+        vector<vector<SimplePolygon<double>>> delaunay_edges; 
+        for (auto e = dt.finite_edges_begin(); e != dt.finite_edges_end(); ++e) {
+            auto segment = dt.segment(*e);
+            auto& p1 = segment.source();
+            auto& p2 = segment.target();
+            const auto& poly1 = pointToPolygon[p1];
+            const auto& poly2 = pointToPolygon[p2];
+            vector<SimplePolygon<double>> edge = {poly1, poly2};
+            delaunay_edges.push_back(edge);
+            graph.addEdge(poly1, poly2);
+        }
+        return delaunay_edges;
+    }

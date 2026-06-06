@@ -1,0 +1,33 @@
+services:
+  memgraph:
+    image: memgraph/memgraph
+    container_name: memgraphDB
+    ports:
+      - "7687:7687"
+      - "7444:7444"
+    command: ["--log-level=TRACE","--query-execution-timeout-sec=0"]
+    volumes:
+      - memgraph-logs:/var/log/memgraph
+
+  lab:
+    image: memgraph/lab:latest
+    container_name: memgraph-lab
+    ports:
+      - "3000:3000"
+    depends_on:
+      - memgraph
+    environment:
+      - QUICK_CONNECT_MG_HOST=memgraph
+      - QUICK_CONNECT_MG_PORT=7687   
+ 
+  fishnet-sda:
+    image: logru/sda:1.0
+    depends_on:
+      - memgraph
+    container_name: sda-workflow
+    volumes:
+      - ${HOME}/.fishnet:/data
+      - ${HOME}/.fishnet/working-directory:/tmp/fishnet
+volumes:
+  memgraph-logs:
+    driver: local

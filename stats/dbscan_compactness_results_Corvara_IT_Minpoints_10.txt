@@ -1,0 +1,4 @@
+Compactness values: 
+Cluster -1 : compactness = 0.288381
+Compactness Index (CI): 0.288381
+Normalized Compactness Index (CI): 0.288381

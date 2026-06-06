@@ -1,0 +1,42 @@
+Compactness values: 
+Cluster 30 : compactness = 0.279652
+Cluster 31 : compactness = 0.200543
+Cluster 28 : compactness = 0.252117
+Cluster 26 : compactness = 0.269831
+Cluster 15 : compactness = 0.280858
+Cluster 14 : compactness = 0.236334
+Cluster 21 : compactness = 0.271454
+Cluster 20 : compactness = 0.282972
+Cluster 18 : compactness = 0.274009
+Cluster 17 : compactness = 0.296722
+Cluster 33 : compactness = 0.212928
+Cluster 32 : compactness = 0.277677
+Cluster 3 : compactness = 0.238745
+Cluster 34 : compactness = 0.279132
+Cluster 5 : compactness = 0.292046
+Cluster 35 : compactness = 0.290926
+Cluster 6 : compactness = 0.257087
+Cluster 23 : compactness = 0.269017
+Cluster 4 : compactness = 0.246129
+Cluster -1 : compactness = 0.287309
+Cluster 10 : compactness = 0.271199
+Cluster 36 : compactness = 0.282095
+Cluster 7 : compactness = 0.271203
+Cluster 11 : compactness = 0.280057
+Cluster 37 : compactness = 0.273805
+Cluster 8 : compactness = 0.288447
+Cluster 25 : compactness = 0.276241
+Cluster 38 : compactness = 0.297132
+Cluster 9 : compactness = 0.288213
+Cluster 22 : compactness = 0.232911
+Cluster 12 : compactness = 0.267869
+Cluster 29 : compactness = 0.267972
+Cluster 2 : compactness = 0.236776
+Cluster 27 : compactness = 0.262359
+Cluster 1 : compactness = 0.264113
+Cluster 19 : compactness = 0.276663
+Cluster 13 : compactness = 0.298505
+Cluster 24 : compactness = 0.28476
+Cluster 16 : compactness = 0.287634
+Compactness Index (CI): 0.269319
+Normalized Compactness Index (CI): 0.00690562
